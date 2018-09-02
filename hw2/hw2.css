@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+catalog {
+    background-color: lightgray;
+}
+book, title, author, publisher {
+    display: block;
+}
+book {
+
+}
+book:nth-child(odd) {
+    background-color: lightblue;
+}
+title {
+    color: red;
+    font-weight: bold;
+}
+author {
+
+}
+publisher {
+
+}

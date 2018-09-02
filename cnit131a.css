@@ -49,3 +49,9 @@ table.purpleHorizon {
     padding: 2px 8px;
     border-radius: 5px;
   }
+  td a {
+    color: cyan;
+  }
+  td a:visited {
+    color: deepskyblue;
+  }
