@@ -22,10 +22,10 @@
      <td><xsl:value-of select="E-mail"/></td>
      <xsl:choose>
        <xsl:when test="Account_Total &gt; 80000">
-         <td class="right"><xsl:value-of select="Account_Total"/></td>
+         <td class="right">$<xsl:value-of select="Account_Total"/></td>
        </xsl:when>
        <xsl:otherwise>
-     <td class="right red"><xsl:value-of select="Account_Total"/></td>
+     <td class="right red">$<xsl:value-of select="Account_Total"/></td>
    </xsl:otherwise>
    </xsl:choose>
     </tr>
