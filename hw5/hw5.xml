@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
-<!-- <!DOCTYPE Products SYSTEM "hw5.dtd"> -->
-<!DOCTYPE Products [
+<!DOCTYPE Products SYSTEM "hw5.dtd">
+<!-- <!DOCTYPE Products [
   <!ELEMENT Products (Prod+)>
 
   <!ELEMENT Prod (Details, Quantity, Unit_Price, Color*, Loc)>
@@ -16,7 +16,7 @@
   <!ELEMENT Loc           (#PCDATA)>
 
   <!ENTITY usa "Made in USA">
-]>
+]> -->
 
 <Products>
 

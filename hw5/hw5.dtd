@@ -12,4 +12,4 @@
 <!ELEMENT Color         (#PCDATA)>
 <!ELEMENT Loc           (#PCDATA)>
 
-<!ENTITY USA "Made in USA">
+<!ENTITY usa "Made in USA">
