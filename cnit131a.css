@@ -28,7 +28,8 @@ table.purpleHorizon {
     border-bottom: 4px solid #792396;
   }
   table.purpleHorizon thead th {
-    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
     font-weight: bold;
     color: #FFFFFF;
     border-left: 2px solid #792396;
@@ -38,7 +39,8 @@ table.purpleHorizon {
   }
   
   table.purpleHorizon tfoot td {
-    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
   }
   table.purpleHorizon tfoot .links {
     text-align: right;
