@@ -20,7 +20,7 @@ table.purpleHorizon {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: #FFFFFF;
-    padding: 8px 4px;
+    padding: 8px 12px;
   }
   table.purpleHorizon tr:nth-child(even) {
     background: #CC3BFC;
@@ -31,7 +31,7 @@ table.purpleHorizon {
   }
   table.purpleHorizon thead th {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
     border-left: 2px solid #792396;
