@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 
-<Member xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="hw6.xsd">
+<Member xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="https://chuck-martin.github.io/cnit131a/hw6/hw6.xsd">
     <Name>Jonathan Mark</Name>
     <Age>22</Age>
     <Job>Consultant</Job>
