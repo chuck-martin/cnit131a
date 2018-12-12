@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Homework 10: CNIT 131a - JSON</title>
+  <meta name="author" content="Chuck Martin">
+  <link rel="stylesheet" type="text/css" href="../cnit131a.css">
+</head>
+<body>
+  <h1>Homework 10</h1>
+<p><strong>Question:</strong> Suppose you have the following code in JavaScript (recognize the data being passed to the variable in JSON format) - the <strong>var</strong> statement is just to declare the variable called <strong>friends</strong></p>
+  <p><code>var friends = [{<br>
+       "name": "John",<br>
+       "age": "28",<br>
+       "gender": "male",<br>
+       "profession": "sales rep"<br>
+  },<br>
+  {<br>
+       "name": "Maryenne",<br>
+       "age": "26",<br>
+       "gender": "female",<br>
+       "profession": "web developer"<br>
+  }];</code></p>
+  <p>Then, later in the program, that variable <strong>friends</strong> (that looks like an array, right?) is used to write some data in a  table. So, if you see the following command in this same JavaScript  code, that is referring to the above JSON structure, what will be the  content of the variable <strong>tablecell1</strong>? Remember, the <strong>var</strong> statement is only declaring the<strong> tablecell1</strong> variable!</p>
+  <p><code>var  tablecell1 = '&lt;tr&gt;&lt;td&gt;' + friends[0].name +  '&lt;/td&gt;&lt;td&gt;' + friends[0].profession +  '&lt;/td&gt;&lt;/tr&gt;'</code></p>
+  <p><strong>Answer:</strong> The content of tablecell1 would be the HTML to write a table row consisting of two columns. The content of the left cell would be &quot;John&quot; and the content of the right cel would be &quot;sales rep&quot;.</p>
+<p>Like this:</p>
+<script>
+var friends = [{
+       "name": "John",
+       "age": "28",
+       "gender": "male",
+       "profession": "sales rep"
+  },
+  {
+       "name": "Maryenne",
+       "age": "26",
+       "gender": "female",
+       "profession": "web developer"
+  }];
+
+var tablecell1 = '<tr><td>' + friends[0].name + '</td><td>' + friends[0].profession + '</td></tr>'
+
+
+document.write("<table>");
+document.write("<tr><th>Name</th><th>Profession</th></tr>");
+document.write(tablecell1);
+document.write("</table>");
+</script>
+  <p><a href="hw10.json">hw10.json</a></p>
+
+</body>
+</html>
